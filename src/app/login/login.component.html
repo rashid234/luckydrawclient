@@ -1,0 +1,10 @@
+<p>login works!</p>
+
+<form #form="ngForm" (ngSubmit)="login()">
+    <input type="text" name="username" [(ngModel)]="model.username"><br>
+    <input type="password" name="password" [(ngModel)]="model.password"><br>
+    <input type="submit" value="login">
+</form>
+
+<h2>user token: {{token}}</h2>
+
