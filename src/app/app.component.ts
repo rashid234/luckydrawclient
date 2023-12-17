@@ -15,11 +15,10 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    this.tokenHandler.removeToken();
+    
   }
 
   helo(){
-    console.log('ji')
     this.router.navigate(['login']);
   }
 }
